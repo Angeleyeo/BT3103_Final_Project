@@ -12,5 +12,5 @@ export default [
     { path: '/signup', name:'signup', component: SignUp },
     { path: '/contactus', component: ContactUs},
     { path: '/faq', component: FAQ},
-    { path: '/homeTutor', component: HomeTutor}
+    { path: '/homeTutor', component: HomeTutor},
 ]
