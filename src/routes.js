@@ -7,7 +7,6 @@ import HomeTutor from './components/HomeTutor'
 import HomeStudent from './components/HomeStudent'
 import TutorDetails from './components/TutorDetails'
 
-
 export default [
     { path: '/', name: 'home', component: Home },
     { path: '/login', component: Login },
@@ -16,5 +15,5 @@ export default [
     { path: '/faq', component: FAQ},
     { path: '/homeTutor', component: HomeTutor},
     { path: '/homeStudent', component: HomeStudent},
-    {path: '/tutorDetails', component: TutorDetails}
+    { path: '/tutorDetails', component: TutorDetails}
 ]
